@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.tsr.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tsr.refmap.json",
+  "mixins": [
+    "PrimaryLevelDataMixin"
+  ],
+  "client": [
+    "ClientLevelDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
